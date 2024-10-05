@@ -1,0 +1,15 @@
+proxies:
+- name: Vidio
+  server: quiz.vidio.com
+  port: 443
+  type: trojan
+  password: f6b10ea2-4596-4cc4-8a5b-682cff28b9ca
+  network: ws
+  sni: id.cloudservertech.my.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: id.cloudservertech.my.id
+    xudp: true
